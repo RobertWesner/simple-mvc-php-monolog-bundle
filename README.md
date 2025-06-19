@@ -1,2 +1,3 @@
 # simple-mvc-php-monolog-bundle
-Monolog integration for simple MVC
+
+Very simple Monolog integration for simple MVC.

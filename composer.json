@@ -1,0 +1,31 @@
+{
+    "name": "robertwesner/simple-mvc-php-monolog-bundle",
+    "description": "Monolog integration for robertwesner/simple-mvc-php.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "RobertWesner\\SimpleMvcPhpMonologBundle\\": "src/",
+            "RobertWesner\\SimpleMvcPhpMonologBundle\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "RobertWesner",
+            "email": "robert@wesner.io"
+        }
+    ],
+    "require": {
+        "php": ">=8.4",
+        "robertwesner/simple-mvc-php": "^0.10.1 || ^0.11.0",
+        "robertwesner/dependency-injection": "^v1.3.0",
+        "monolog/monolog": "^3.9.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.10.2",
+        "phpunit/phpunit": "^11.3.1"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit -c phpunit.xml"
+    }
+}
